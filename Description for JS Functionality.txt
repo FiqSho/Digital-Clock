@@ -1,0 +1,15 @@
+1.The updateTime() function is defined, which retrieves the current time using the Date() object.
+
+2.The getHours(), getMinutes(), and getSeconds() methods of the Date() object are used to extract the hours, minutes, and seconds from the current time.
+
+3.The AMPM variable is set to "AM" initially, and then it is updated to "PM" if the current hour is greater than or equal to 12. The hours are also adjusted to be in the 12-hour format if necessary.
+
+4.If the hours are equal to 0, they are set to 12.
+
+5.The seconds, minutes, and hours variables are checked to see if they are less than 10. If they are, a leading "0" is added to them.
+
+6.The innerHTML property of an element with the ID "clock" is updated with the formatted time.
+
+7.The updateTime() function is called initially to display the current time when the page loads.
+
+8.The setInterval() method is used to call the updateTime() function every 1000 milliseconds (1 second) to continuously update the clock display with the current time.
